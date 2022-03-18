@@ -1,12 +1,12 @@
 import './styles.css';
-import'../DestinoCard';
+import '../DestinoCard';
 import React from 'react';
 import Botao from '../BotãoAdquira/botao'
 
 const DestinoCard = ({ foto, nome, preco }) => {
     return (
-<>
-       
+        <>
+
             <div className=" Destino-card">
                 <div className="card-top-container">
                     <img className="imgCard" src={foto} alt="nome do produto" />
@@ -17,11 +17,11 @@ const DestinoCard = ({ foto, nome, preco }) => {
                         <span>R$</span>
                         <h3>{preco}</h3>
                     </div>
-                    <Botao/>
-                   
+                    <Botao />
+
                 </div>
             </div>
-            </>
+        </>
 
     );
 }

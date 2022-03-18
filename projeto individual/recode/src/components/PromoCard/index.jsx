@@ -2,7 +2,7 @@ import './styles.css';
 import Botao from 'components/BotãoAdquira/botao';
 
 
-const PromoCard = ({ foto, nome, preco,precoAnterior }) => {
+const PromoCard = ({ foto, nome, preco, precoAnterior }) => {
     return (
         <div className=" Destino-card">
             <div className="card-top-container">
@@ -15,9 +15,9 @@ const PromoCard = ({ foto, nome, preco,precoAnterior }) => {
                         <strong>De:</strong> <s>{precoAnterior}</s><br></br>
                         <strong>Por:</strong> {preco}
                     </p>
-                    
+
                 </div>
-                < Botao/>
+                < Botao />
             </div>
         </div>
 
